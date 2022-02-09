@@ -6,8 +6,8 @@ export default function Layout({ children }) {
   return (
     <div className="bg-gray-50">
       <Head>
-        <title>MEN2023</title>
-        <meta name="description" content="Engr. Elias Mbam Nwalem Governorship Campaign Team" />
+        <title>Fatbridge</title>
+        <meta name="description" content="fatbridge STEM + C website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
