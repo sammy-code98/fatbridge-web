@@ -5,9 +5,9 @@ import Contact from "../components/Contact/Contact";
 export default function Home() {
   return (
     <Layout>
-      <main id="home" >
-        <Banner />
-        <div className="container">
+      <main id="home"  className="container" >
+        <Banner  />
+        <div>
           <Contact />
         </div>
       </main>
