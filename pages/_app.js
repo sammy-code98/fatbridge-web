@@ -1,5 +1,4 @@
 import '../styles/globals.css'
-import '../components/Awards/ProgressLine.css'
 
 
 function MyApp({ Component, pageProps }) {
