@@ -11,14 +11,14 @@ export default function Navbar() {
       <nav className="flex  items-center flex-wrap bg-gray-50 p-2 md:px-24 w-full fixed z-10">
         <Link href="/">
           <a className="inline-flex  items-center p-2 mr-4">
-            <span className="text-xl text-green-600 font-bold tracking-wide">
+            <span className="text-xl text-purple-700 font-black  tracking-wide">
               Fatbridge
             </span>
           </a>
         </Link>
         {/* hamburger button */}
         <button
-          className="inline-flex p-3 hover:bg-green-600 rounded lg:hidden text-green-300 ml-auto hover:text-white outline-none"
+          className="inline-flex p-3 hover:bg-purple-700 rounded lg:hidden text-purple-500 ml-auto hover:text-white outline-none"
           onClick={handleClick}
         >
           <svg
@@ -50,7 +50,7 @@ export default function Navbar() {
               offset={-70}
               duration={500}
               isDynamic={true}
-              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-green-600 font-bold items-center justify-center hover:bg-green-600 hover:text-white"
+              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white"
             >
               Home
             </Link>
@@ -62,7 +62,7 @@ export default function Navbar() {
               offset={-70}
               duration={500}
               isDynamic={true}
-              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-green-600 font-bold items-center justify-center hover:bg-green-600 hover:text-white"
+              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white"
             >
               About
             </Link>
@@ -74,7 +74,7 @@ export default function Navbar() {
               offset={-70}
               duration={500}
               isDynamic={true}
-              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-green-600 font-bold items-center justify-center hover:bg-green-600 hover:text-white"
+              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white"
             >
               Mission
             </Link>
@@ -86,7 +86,7 @@ export default function Navbar() {
               offset={-70}
               duration={500}
               isDynamic={true}
-              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-green-600 font-bold items-center justify-center hover:bg-green-600 hover:text-white"
+              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white"
             >
               Contact
             </Link>
