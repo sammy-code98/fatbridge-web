@@ -23,6 +23,7 @@ export default function Testimony() {
           </div>
         </div>
         <div className="grid grid-cols-4 gap-4 mx-8 mt-8">
+          <div>
           <div className="w-full h-fit mt-4  rounded-md shadow-sm ">
             <img src="/me.jpeg" alt="dot" className="w-full h-40" />
             <div className="text-sm font-extrabold px-2 mt-2 text-gray-700">
@@ -31,17 +32,88 @@ export default function Testimony() {
             <div className="text-gray-400 text-sm mx-2">10 years old</div>
             <div className="m-2">
               {readMore ? (
-                <div className="text-gray-500 text-sm truncate">
+                <div className="text-gray-500 text-sm">
                   {aboutText}
                 </div>
               ) : (
-                <div className="text-gray-800"> {aboutText}</div>
+                <div className="text-gray-500 text-sm truncate"> {aboutText.substring(0, 400) + " " + " ..."}</div>
               )}
               <div
                 onClick={() => setReadMore(!readMore)}
-                className="text-green-600 p-2 rounded-md cursor-pointer focus:outline-none hover:bg-green-50"
+                className="text-purple-600 p-2 rounded-md cursor-pointer focus:outline-none hover:bg-purple-50"
               >
-                {readMore ? "Read More" : "Read Less"}
+                {readMore ? "Read less" : "Read more"}
+              </div>
+            </div>
+          </div>
+          </div>
+         
+          {/* 2 */}
+          <div className="w-full h-fit mt-4  rounded-md shadow-sm ">
+            <img src="/me.jpeg" alt="dot" className="w-full h-40" />
+            <div className="text-sm font-extrabold px-2 mt-2 text-gray-700">
+              Emmanuel Ciroma
+            </div>
+            <div className="text-gray-400 text-sm mx-2">10 years old</div>
+            <div className="m-2">
+              {readMore ? (
+                <div className="text-gray-500 text-sm">
+                  {aboutText}
+                </div>
+              ) : (
+                <div className="text-gray-500 text-sm truncate"> {aboutText.substring(0, 400) + " " + " ..."}</div>
+              )}
+              <div
+                onClick={() => setReadMore(!readMore)}
+                className="text-purple-600 p-2 rounded-md cursor-pointer focus:outline-none hover:bg-purple-50"
+              >
+                {readMore ? "Read less" : "Read more"}
+              </div>
+            </div>
+          </div>
+          {/* 3 */}
+          <div className="w-full h-fit mt-4  rounded-md shadow-sm ">
+            <img src="/me.jpeg" alt="dot" className="w-full h-40" />
+            <div className="text-sm font-extrabold px-2 mt-2 text-gray-700">
+              Emmanuel Ciroma
+            </div>
+            <div className="text-gray-400 text-sm mx-2">10 years old</div>
+            <div className="m-2">
+              {readMore ? (
+                <div className="text-gray-500 text-sm">
+                  {aboutText}
+                </div>
+              ) : (
+                <div className="text-gray-500 text-sm truncate"> {aboutText.substring(0, 400) + " " + " ..."}</div>
+              )}
+              <div
+                onClick={() => setReadMore(!readMore)}
+                className="text-purple-600 p-2 rounded-md cursor-pointer focus:outline-none hover:bg-purple-50"
+              >
+                {readMore ? "Read less" : "Read more"}
+              </div>
+            </div>
+          </div>
+          {/* 4 */}
+          <div className="w-full h-fit mt-4  rounded-md shadow-sm ">
+            <img src="/me.jpeg" alt="dot" className="w-full h-40" />
+            <div className="text-sm font-extrabold px-2 mt-2 text-gray-700">
+              Emmanuel Ciroma
+            </div>
+            <div className="text-gray-400 text-sm mx-2">10 years old</div>
+            <div className="m-2">
+              {readMore ? (
+                <div className="text-gray-500 text-sm">
+                  {aboutText}
+                </div>
+              ) : (
+                <div className="text-gray-500 text-sm truncate"> {aboutText.substring(0, 400) + " " + " ..."}</div>
+              )}
+              <div
+                onClick={() => setReadMore(!readMore)}
+                className="text-purple-600 p-2 rounded-md cursor-pointer focus:outline-none hover:bg-purple-50"
+              >
+                {readMore ? "Read less" : "Read more"}
               </div>
             </div>
           </div>
