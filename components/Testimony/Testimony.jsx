@@ -1,8 +1,12 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
+const aboutText =
+  " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iureitaque nisi sit corrupti facilis ipsum provident molestiaeimpedit tenetur recusandae iste placeat pariatur minima, animiipsam expedita vero, nulla quis!";
 
 export default function Testimony() {
+  const [readMore, setReadMore] = useState(false);
+
   return (
     <div className="mt-32 flex flex-row ">
       <div className="mt-8">
@@ -25,52 +29,22 @@ export default function Testimony() {
               Emmanuel Ciroma
             </div>
             <div className="text-gray-400 text-sm mx-2">10 years old</div>
-            <div className="text-gray-500 text-sm m-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
-              itaque nisi sit corrupti facilis ipsum provident molestiae impedit
-              tenetur recusandae iste placeat pariatur minima, animi ipsam
-              expedita vero, nulla quis!
+            <div className="m-2">
+              {readMore ? (
+                <div className="text-gray-500 text-sm truncate">
+                  {aboutText}
+                </div>
+              ) : (
+                <div className="text-gray-800"> {aboutText}</div>
+              )}
+              <div
+                onClick={() => setReadMore(!readMore)}
+                className="text-green-600 p-2 rounded-md cursor-pointer focus:outline-none hover:bg-green-50"
+              >
+                {readMore ? "Read More" : "Read Less"}
+              </div>
             </div>
           </div>
-          <div className="w-full h-fit mt-4  rounded-md shadow-sm ">
-            <img src="/me.jpeg" alt="dot" className="w-full h-40" />
-            <div className="text-sm font-extrabold px-2 mt-2 text-gray-700">
-              Emmanuel Ciroma
-            </div>
-            <div className="text-gray-400 text-sm mx-2">10 years old</div>
-            <div className="text-gray-500 text-sm m-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
-              itaque nisi sit corrupti facilis ipsum provident molestiae impedit
-              tenetur recusandae iste placeat pariatur minima, animi ipsam
-              expedita vero, nulla quis!
-            </div>
-          </div>
-          <div className="w-full h-fit mt-4  rounded-md shadow-sm ">
-            <img src="/me.jpeg" alt="dot" className="w-full h-40" />
-            <div className="text-sm font-extrabold px-2 mt-2 text-gray-700">
-              Emmanuel Ciroma
-            </div>
-            <div className="text-gray-400 text-sm mx-2">10 years old</div>
-            <div className="text-gray-500 text-sm m-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
-              itaque nisi sit corrupti facilis ipsum provident molestiae impedit
-              tenetur recusandae iste placeat pariatur minima, animi ipsam
-              expedita vero, nulla quis!
-            </div>
-          </div>
-          <div className="w-full h-fit mt-4  rounded-md shadow-sm ">
-            <img src="/me.jpeg" alt="dot" className="w-full h-40" />
-            <div className="text-sm font-extrabold px-2 mt-2 text-gray-700">
-              Emmanuel Ciroma
-            </div>
-            <div className="text-gray-400 text-sm mx-2">10 years old</div>
-            <div className="text-gray-500 text-sm m-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
-              itaque nisi sit corrupti facilis ipsum provident molestiae impedit
-              tenetur recusandae iste placeat pariatur minima, animi ipsam
-              expedita vero, nulla quis!
-            </div>
-          </div>{" "}
         </div>
       </div>
     </div>
