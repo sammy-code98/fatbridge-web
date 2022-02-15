@@ -9,20 +9,22 @@ export default function Testimony() {
 
   return (
     <div className="mt-32 flex flex-row ">
-      <div className="mt-8">
+      <div className="mt-8 hidden md:block">
         {" "}
         <Image src="/dot.svg" alt="dot" width={200} height={300} />
       </div>
-      <div className="flex flex-col justify-items-center mt-24 container">
+      <div className="md:flex md:flex-col md:justify-items-center mt-24 container">
         <div className="mx-8">
-          <div className="text-4xl font-bold tracking-wide leading-8 mb-2">
-            Inspiring Stories of those
+          <div className="md:text-4xl  text-2xl font-bold tracking-wide leading-8 mb-2 text-gray-500">
+            Inspiring Stories of our
           </div>
-          <div className="text-4xl font-bold tracking-wide leading-8">
-            We have already helped.
+          <div className="md:text-4xl  text-2xl font-bold tracking-wide leading-8 text-purple-700">
+            Amazing Students.
           </div>
+          {/* mobile text */}
+          <div>Inspiring Stories of our Amazing Students</div>
         </div>
-        <div className="grid grid-cols-4 gap-4 mx-8 mt-8">
+        <div className="md:grid md:grid-cols-4 md:gap-4 md:mx-8 mt-8">
           <div>
           <div className="w-full h-fit mt-4  rounded-md shadow-sm ">
             <img src="/me.jpeg" alt="dot" className="w-full h-40" />
