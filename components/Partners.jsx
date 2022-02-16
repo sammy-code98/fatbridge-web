@@ -14,12 +14,12 @@ function Partners() {
         <span className="text-purple-700 font-bold">500+</span> Amazing
         Individuals and Organizations
       </div>
-      <div className="mt-4  container">
+      <div className="mt-4 md:container">
         <Ticker>
           {({ index }) => (
             <>
-              <div className="mx-6">
-                <span className="mx-8">
+              <div className="md:mx-6 mx-2">
+                <span className="md:mx-8 mx-2">
                   <Image
                     src="/google.svg"
                     alt="Google"
@@ -29,7 +29,7 @@ function Partners() {
                   />
                 </span>
 
-                <span className="mx-8">
+                <span className="md:mx-8 mx-2">
                   <Image
                     src="/facebook.svg"
                     alt="Google"
