@@ -19,12 +19,24 @@ function Partners() {
           {({ index }) => (
             <>
               <div className="mx-6">
-                <Image
-                  src="/google.svg"
-                  alt="Google"
-                  width={100}
-                  height={100}
-                />
+                <span className="mx-8">
+                  <Image
+                    src="/google.svg"
+                    alt="Google"
+                    width={100}
+                    height={100}
+                    className="mx-24"
+                  />
+                </span>
+
+                <span className="mx-8">
+                  <Image
+                    src="/facebook.svg"
+                    alt="Google"
+                    width={100}
+                    height={100}
+                  />
+                </span>
               </div>
             </>
           )}
