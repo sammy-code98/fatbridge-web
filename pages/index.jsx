@@ -3,6 +3,7 @@ import Banner from "../components/Banner";
 import Vision from "../components/Vision/Vision"
 import Partners from "../components/Partners"
 import Testimony from "../components/Testimony/Testimony"
+import Faq from "../components/Faq"
 import Contact from "../components/Contact/Contact";
 
 
@@ -15,6 +16,7 @@ export default function Home() {
           <Vision/>
           <Partners/>
           <Testimony/>
+          <Faq/>
           <Contact />
         </div>
       </main>
