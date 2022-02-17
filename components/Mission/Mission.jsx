@@ -8,7 +8,7 @@ import {
 
 function Mission() {
   return (
-    <section className="mt-12 md:mt-32">
+    <section className="mt-12 md:mt-32" id="mission">
       <div className="text-center text-2xl md:text-3xl text-purple-700">
         Our Mission
       </div>
