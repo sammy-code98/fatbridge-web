@@ -20,7 +20,7 @@ function Mission() {
       </div>
       <div className="md:grid md:grid-cols-4 md:gap-8 md:justify-items-center mt-12 md:px-24 p-4">
         <div>
-          <FaHandshake style={{ fontSize: "3em" }} className="my-4" />
+          <FaHandshake style={{ fontSize: "3em" }} className="my-4 text-purple-700" />
           <div className="text-base text-gray-700 mt-2 ">Lorem</div>
           <p className="text-sm text-gray-500">
             These utilities are really just a shortcut for adding margin to
@@ -29,7 +29,7 @@ function Mission() {
           </p>
         </div>
         <div>
-          <FaRocket style={{ fontSize: "3em" }}  className="my-4"/>
+          <FaRocket style={{ fontSize: "3em" }}  className="my-4 text-purple-700"/>
           <div className="text-base text-gray-700 mt-2 ">Lorem</div>
           <p className="text-sm text-gray-500">
             These utilities are really just a shortcut for adding margin to
@@ -38,7 +38,7 @@ function Mission() {
           </p>
         </div>
         <div>
-          <FaRobot style={{ fontSize: "3em" }} className="my-4" />
+          <FaRobot style={{ fontSize: "3em" }} className="my-4 text-purple-700" />
           <div className="text-base text-gray-700  mt-2">Lorem</div>
           <p className="text-sm text-gray-500">
             These utilities are really just a shortcut for adding margin to
@@ -47,7 +47,7 @@ function Mission() {
           </p>
         </div>
         <div>
-          <FaSquareRootAlt style={{ fontSize: "3em" }} className="my-4" />
+          <FaSquareRootAlt style={{ fontSize: "3em" }} className="my-4 text-purple-700" />
           <div className="text-base text-gray-700 mt-2">Lorem</div>
           <p className="text-sm text-gray-500">
             These utilities are really just a shortcut for adding margin to
