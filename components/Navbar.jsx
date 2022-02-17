@@ -56,18 +56,6 @@ export default function Navbar() {
             </Link>
             <Link
               activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              isDynamic={true}
-              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white"
-            >
-              About
-            </Link>
-            <Link
-              activeClass="active"
               to="mission"
               spy={true}
               smooth={true}
@@ -78,6 +66,19 @@ export default function Navbar() {
             >
               Mission
             </Link>
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              isDynamic={true}
+              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white"
+            >
+              About
+            </Link>
+           
             <Link
               activeClass="active"
               to="contact"
