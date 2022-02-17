@@ -12,15 +12,15 @@ function Mission() {
       <div className="text-center text-2xl md:text-3xl text-purple-700">
         Our Mission
       </div>
-      <div className="text-center text-base text-gray-500 px-4 mt-2">
+      <div className="text-center text-base text-gray-500 md:px-4 mt-2">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
         consequuntur natus cupiditate ex quia. Hic nam asperiores cumque
         voluptatum laboriosam assumenda impedit amet, blanditiis totam
         voluptates, excepturi neque beatae reiciendis!
       </div>
-      <div className="grid grid-cols-4 gap-8 justify-items-center mt-12 px-24">
+      <div className="md:grid md:grid-cols-4 md:gap-8 md:justify-items-center mt-12 md:px-24 p-4">
         <div>
-          <FaHandshake style={{ fontSize: "3em" }} />
+          <FaHandshake style={{ fontSize: "3em" }} className="my-4" />
           <div className="text-base text-gray-700 mt-2 ">Lorem</div>
           <p className="text-sm text-gray-500">
             These utilities are really just a shortcut for adding margin to
@@ -29,7 +29,7 @@ function Mission() {
           </p>
         </div>
         <div>
-          <FaRocket style={{ fontSize: "3em" }} />
+          <FaRocket style={{ fontSize: "3em" }}  className="my-4"/>
           <div className="text-base text-gray-700 mt-2 ">Lorem</div>
           <p className="text-sm text-gray-500">
             These utilities are really just a shortcut for adding margin to
@@ -38,7 +38,7 @@ function Mission() {
           </p>
         </div>
         <div>
-          <FaRobot style={{ fontSize: "3em" }} />
+          <FaRobot style={{ fontSize: "3em" }} className="my-4" />
           <div className="text-base text-gray-700  mt-2">Lorem</div>
           <p className="text-sm text-gray-500">
             These utilities are really just a shortcut for adding margin to
@@ -47,7 +47,7 @@ function Mission() {
           </p>
         </div>
         <div>
-          <FaSquareRootAlt style={{ fontSize: "3em" }} />
+          <FaSquareRootAlt style={{ fontSize: "3em" }} className="my-4" />
           <div className="text-base text-gray-700 mt-2">Lorem</div>
           <p className="text-sm text-gray-500">
             These utilities are really just a shortcut for adding margin to
