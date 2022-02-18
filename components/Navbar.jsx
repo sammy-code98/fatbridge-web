@@ -91,6 +91,30 @@ export default function Navbar() {
             >
               Contact
             </Link>
+            <Link
+              activeClass="active"
+              to="#"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              isDynamic={true}
+              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white"
+            >
+              Gallery
+            </Link>
+            <Link
+              activeClass="active"
+              to="#"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              isDynamic={true}
+              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white"
+            >
+              Projects
+            </Link>
           </div>
         </div>
       </nav>
