@@ -97,6 +97,7 @@ function Faq() {
         <div className="text-center text-lg text-gray-400">
           Our team is happy to answer your questions. Contact us and we&apos;ll
           be in touch as soon as possible.
+          
         </div>
         <div className="flex flex-row  justify-center mt-4">
         <button
