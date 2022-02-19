@@ -1,6 +1,8 @@
 // import Link from "next/link";
-import { Link, animateScroll as scroll } from "react-scroll";
+// import { Link, animateScroll as scroll } from "react-scroll";
 import { useState } from "react";
+import Link from "next/link";
+
 export default function Navbar() {
   const [active, setActive] = useState(false);
   const handleClick = () => {
@@ -43,77 +45,89 @@ export default function Navbar() {
         >
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center    flex flex-col lg:h-auto">
             <Link
-              activeClass="active"
-              to="home"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              isDynamic={true}
-              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white"
+              // activeClass="active"
+              // to="home"
+              // spy={true}
+              // smooth={true}
+              // offset={-70}
+              // duration={500}
+              // isDynamic={true}
+              href="/"
             >
-              Home
+              <a className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white">
+                Home
+              </a>
             </Link>
             <Link
-              activeClass="active"
-              to="mission"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              isDynamic={true}
-              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white"
+              // activeClass="active"
+              // to="mission"
+              // spy={true}
+              // smooth={true}
+              // offset={-70}
+              // duration={500}
+              // isDynamic={true}
+              href="#mission"
             >
-              Mission
+              <a className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white">
+                Mission
+              </a>
             </Link>
             <Link
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              isDynamic={true}
-              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white"
+              // activeClass="active"
+              // to="/about"
+              // spy={true}
+              // smooth={true}
+              // offset={-70}
+              // duration={500}
+              // isDynamic={true}
+              href="/about"
             >
-              About
+              <a className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white">
+                About
+              </a>
             </Link>
-           
+
             <Link
-              activeClass="active"
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              isDynamic={true}
-              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white"
+              // activeClass="active"
+              // to="contact"
+              // spy={true}
+              // smooth={true}
+              // offset={-70}
+              // duration={500}
+              // isDynamic={true}
+              href=""
             >
-              Contact
-            </Link>
-            <Link
-              activeClass="active"
-              to="#"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              isDynamic={true}
-              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white"
-            >
-              Gallery
+              <a className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white">
+                Contact
+              </a>
             </Link>
             <Link
-              activeClass="active"
-              to="#"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              isDynamic={true}
-              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white"
+              // activeClass="active"
+              // to="#"
+              // spy={true}
+              // smooth={true}
+              // offset={-70}
+              // duration={500}
+              // isDynamic={true}
+              href=""
             >
-              Projects
+              <a className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white">
+                Gallery
+              </a>
+            </Link>
+            <Link
+              // activeClass="active"
+              // to="#"
+              // spy={true}
+              // smooth={true}
+              // offset={-70}
+              // duration={500}
+              // isDynamic={true}
+              href=""
+            >
+              <a className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white">
+                Projects
+              </a>
             </Link>
           </div>
         </div>
