@@ -57,7 +57,7 @@ export default function Navbar() {
                 Home
               </a>
             </Link>
-            <Link
+            {/* <Link
               // activeClass="active"
               // to="mission"
               // spy={true}
@@ -70,7 +70,7 @@ export default function Navbar() {
               <a className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white">
                 Mission
               </a>
-            </Link>
+            </Link> */}
             <Link
               // activeClass="active"
               // to="/about"
