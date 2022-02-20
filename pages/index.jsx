@@ -8,7 +8,7 @@ import Faq from "../components/Faq"
 import Contact from "../components/Contact/Contact";
 
 
-export default function Home() {
+ function Home() {
   return (
     // <Layout>
       <main id="home"  className="container" >
@@ -25,3 +25,5 @@ export default function Home() {
     // </Layout>
   );
 }
+Home.layout = "L1"
+export default Home;
