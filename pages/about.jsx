@@ -9,7 +9,7 @@ function about() {
           <div className="text-4xl text-gray-500 text-center">
             Get to Know Us
           </div>
-          <div>
+          <div className="text-center mt-2">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Distinctio, recusandae ipsum at numquam, quo explicabo atque sint
             nobis.

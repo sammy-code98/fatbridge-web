@@ -4,7 +4,6 @@ import Mission from "../components/Mission/Mission"
 import Partners from "../components/Partners"
 import Testimony from "../components/Testimony/Testimony"
 import Faq from "../components/Faq"
-import Contact from "../components/Contact/Contact";
 
 
  function Home() {
@@ -17,7 +16,6 @@ import Contact from "../components/Contact/Contact";
           <Partners/>
           <Testimony/>
           <Faq/>
-          <Contact />
         </div>
       </main>
   );
