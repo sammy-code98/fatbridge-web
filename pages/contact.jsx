@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { FaFacebookF, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 function contact() {
   return (
@@ -13,9 +14,24 @@ function contact() {
         </div>
         <div className="border-double border-4 border-purple-700  mx-auto mt-4 w-1/2 p-8 rounded-lg">
           <div className="grid grid-cols-3 gap-8 justify-items-center">
-            <div>helo</div>
-            <div>hee</div>
-            <div>jeje</div>
+            <div>
+              <FaFacebookF
+                className="cursor-pointer hover:text-sky-500"
+                style={{ fontSize: "1.5em" }}
+              />
+            </div>
+            <div>
+              <FaInstagram
+                className="cursor-pointer hover:text-rose-700"
+                style={{ fontSize: "1.5em" }}
+              />
+            </div>
+            <div>
+              <FaEnvelope
+                className="cursor-pointer hover:text-rose-500"
+                style={{ fontSize: "1.5em" }}
+              />
+            </div>
           </div>
         </div>
       </div>
