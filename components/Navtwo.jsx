@@ -81,7 +81,7 @@ export default function Navbar() {
               // offset={-70}
               // duration={500}
               // isDynamic={true}
-              href=""
+              href="/contact"
             >
               <a className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-purple-700 font-bold items-center justify-center hover:bg-purple-700 hover:text-white">
                 Contact
