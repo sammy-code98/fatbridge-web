@@ -36,7 +36,7 @@ function Gallery() {
       <div className="flex flex-row  justify-center mt-4">
         <button
           type="submit"
-          className="p-4 text-center py-3 rounded-full bg-purple-700 text-white shadow-md focus:outline-none my-1"
+          className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-purple-500 duration-300 p-4 text-center py-3 rounded-full bg-purple-700 text-white shadow-md focus:outline-none my-1"
         >
           <Link href="/gallery">Want to see more?</Link>
         </button>
