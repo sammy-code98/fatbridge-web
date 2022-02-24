@@ -38,6 +38,5 @@ function contact() {
     </section>
   );
 }
-contact.layout = "L2";
 
 export default contact;
