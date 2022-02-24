@@ -26,9 +26,9 @@ function gallery() {
       </div>
       <div className="md:grid md:grid-cols-4 md:gap-6 md:justify-items-center md:mt-8 md:px-12 mt-4">
         {gallData.map((gall, index) => (
-          <div className="shadow-md rounded-md  mb-4" key={index}>
+          <div className="shadow-md rounded-tr-3xl rounded-bl-3xl m-6  md:m-4" key={index}>
             <Image
-              className="flex flex-row mx-auto"
+              className="flex flex-row mx-auto  rounded-tr-3xl"
               src={gall.img}
               width={350}
               height={250}
