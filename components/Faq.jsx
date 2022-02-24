@@ -97,17 +97,15 @@ function Faq() {
         <div className="text-center text-lg text-gray-400">
           Our team is happy to answer your questions. Contact us and we&apos;ll
           be in touch as soon as possible.
-          
         </div>
         <div className="flex flex-row  justify-center mt-4">
-        <button
-          type="submit"
-          className="p-4 text-center py-3 rounded-full bg-purple-700 text-white shadow-md focus:outline-none my-1"
-        >
-        Contact Support
-        </button>
+          <button
+            type="submit"
+            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-purple-500 duration-300 p-4 text-center py-3 rounded-full bg-purple-700 text-white shadow-md focus:outline-none my-1"
+            >
+            Contact Support
+          </button>
         </div>
-       
       </div>
     </>
   );
