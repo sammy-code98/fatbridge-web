@@ -12,7 +12,7 @@ export default function Layout({ children }) {
       </Head>
       <Navtwo />
       <div >{children}</div>
-      <Footer  />
+      {/* <Footer  /> */}
     </div>
   );
 }

@@ -1,3 +1,5 @@
+import Layout from "../components/Layout/Layout"
+import LayoutTwo from "../components/Layout/LayoutTwo"
 import Banner from "../components/Banner";
 import Vision from "../components/Vision/Vision"
 import Mission from "../components/Mission/Mission"
@@ -6,7 +8,7 @@ import Testimony from "../components/Testimony/Testimony"
 import Faq from "../components/Faq"
 
 
- function Home() {
+ export default function Home() {
   return (
       <main id="home"  className="container" >
         <Banner  />
@@ -21,4 +23,10 @@ import Faq from "../components/Faq"
   );
 }
 Home.layout = "L1"
-export default Home;
+Home.getLayout = function getLayout(children) {
+  return(
+    <Layout>
+      <LayoutTwo>{children}</LayoutTwo>
+    </Layout>
+  )
+}
