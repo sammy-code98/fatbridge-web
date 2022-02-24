@@ -84,6 +84,5 @@ function about() {
     </section>
   );
 }
-about.layout = "L2";
 
 export default about;
