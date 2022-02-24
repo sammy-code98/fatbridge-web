@@ -1,5 +1,4 @@
-import Layout from "../components/Layout/Layout"
-import LayoutTwo from "../components/Layout/LayoutTwo"
+
 import Banner from "../components/Banner";
 import Vision from "../components/Vision/Vision"
 import Mission from "../components/Mission/Mission"
@@ -22,11 +21,5 @@ import Faq from "../components/Faq"
       </main>
   );
 }
-Home.layout = "L1"
-Home.getLayout = function getLayout(children) {
-  return(
-    <Layout>
-      <LayoutTwo>{children}</LayoutTwo>
-    </Layout>
-  )
-}
+// Home.layout = "L1"
+
