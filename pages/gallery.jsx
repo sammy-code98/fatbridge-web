@@ -18,7 +18,7 @@ function gallery() {
       <div className="text-center text-2xl md:text-3xl px-6 text-gray-500">
         See the Amazing feet we have achived with out program
       </div>
-      <div className="text-center text-gray-400 text-base mx-8 mt-2">
+      <div className="text-center text-gray-500 text-base mx-8 mt-2">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi molestiae
         commodi eius illo voluptate aperiam fugit excepturi corporis aliquid
         aut? Natus, quos perspiciatis! Numquam esse dolorum tempore autem. Ut,
