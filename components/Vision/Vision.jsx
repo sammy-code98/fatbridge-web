@@ -1,9 +1,9 @@
 import React from "react";
 import {
   FaGraduationCap,
-  FaBookOpen,
   FaFlask,
   FaCalculator,
+  FaBrain,
 } from "react-icons/fa";
 
 function Vision() {
@@ -17,55 +17,55 @@ function Vision() {
           />{" "}
         </div>
         <div className="text-gray-500 text-left text-base  mx-3">
-          lorem dorem
+          Making children&apos;s
         </div>
-        <div className="text-black text-4xl tracking-wide font-bold m-4">
-          Learn Ict skills{" "}
+        <div className="text-gray-600 text-3xl tracking-wide font-bold m-4">
+          Education Fun{" "}
         </div>
       </div>
       {/* 2nd */}
       <div className="bg-amber-200 w-full rounded-md shadow-md mt-24">
         <div className="flex mx-auto -translate-y-12 rounded-full text-center shadow-2xl h-20 w-20 text-gray-700  bg-white">
-          <FaBookOpen
+          <FaBrain
             className="flex mx-auto mt-4  text-gray-500 "
             style={{ fontSize: "2em" }}
           />
         </div>
         <div className="text-gray-500 text-left text-base  mx-3">
-          lorem dorem
+          Develop
         </div>
-        <div className="text-black text-4xl tracking-wide font-bold m-4">
-          Learn Ict skills{" "}
+        <div className="text-gray-600 text-3xl tracking-wide font-bold m-4">
+          Problem Solving Skills{" "}
         </div>
       </div>
       {/* 3rd */}
       <div className="bg-green-200 w-full rounded-md shadow-md mt-24">
         <div className="flex mx-auto -translate-y-12 rounded-full text-center shadow-2xl h-20 w-20 text-gray-700  bg-white">
-        <FaFlask
+          <FaFlask
             className="flex mx-auto mt-4  text-gray-500 "
             style={{ fontSize: "2em" }}
           />
         </div>
         <div className="text-gray-500 text-left text-base  mx-3">
-          lorem dorem
+          Acquire basic
         </div>
-        <div className="text-black text-4xl tracking-wide font-bold m-4">
-          Learn Ict skills{" "}
+        <div className="text-gray-600 text-3xl tracking-wide font-bold m-4">
+          Knowledge of Science{" "}
         </div>
       </div>
       {/* 4th */}
       <div className="bg-yellow-200 w-full rounded-md shadow-md mt-24">
         <div className="flex mx-auto -translate-y-12 rounded-full text-center shadow-2xl h-20 w-20 text-gray-700  bg-white">
-        <FaCalculator
+          <FaCalculator
             className="flex mx-auto mt-4  text-gray-500 "
             style={{ fontSize: "2em" }}
           />
         </div>
         <div className="text-gray-500 text-left text-base  mx-3">
-          lorem dorem
+          Acquire & Enhance
         </div>
-        <div className="text-black text-4xl tracking-wide font-bold m-4">
-          Learn Ict skills{" "}
+        <div className="text-gray-600 text-3xl tracking-wide font-bold m-4">
+          Maths and Ict skills{" "}
         </div>
       </div>
     </div>
