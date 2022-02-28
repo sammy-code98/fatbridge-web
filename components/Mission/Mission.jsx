@@ -13,9 +13,10 @@ function Mission() {
         Our Mission
       </div>
       <div className="text-center text-base text-gray-500 md:px-8 mt-2">
-        At Fatbridge, we are poised to assist the unrepresented gifted and talented students
-        to explore the use of technology/Artificial intelligence in the studying
-        of sciences, technology, engineering,mathematics and Arts
+        At Fatbridge, we are poised to assist the unrepresented gifted and
+        talented students to explore the use of technology/Artificial
+        intelligence in the studying of sciences, technology,
+        engineering,mathematics and Arts
       </div>
       <div className="md:grid md:grid-cols-4 md:gap-8 md:justify-items-center mt-12 md:px-24 p-4">
         <div>
@@ -23,11 +24,14 @@ function Mission() {
             style={{ fontSize: "3em" }}
             className="my-4 text-purple-500 mx-auto"
           />
-          <div className="text-base text-center  text-gray-500 mt-2 ">Student Partnership</div>
+          <div className="text-base text-center  text-gray-500 mt-2 ">
+            Student Partnership
+          </div>
           <p className="text-sm text-gray-400">
-            These utilities are really just a shortcut for adding margin to
-            all-but-the-first-item in a group, and aren’t designed to handle
-            complex cases like grids, layouts that wrap, or situations where the
+            We encourage students to actively partner among themselves to foster
+            a better learning experience. At Fatbridge we use the best student
+            partnership framework aimed at including students in the teaching,
+            learning and research areas of STEM
           </p>
         </div>
         <div>
@@ -35,11 +39,13 @@ function Mission() {
             style={{ fontSize: "3em" }}
             className="my-4 text-purple-500 mx-auto"
           />
-          <div className="text-base text-center text-gray-500 mt-2 ">Promote Excellence</div>
+          <div className="text-base text-center text-gray-500 mt-2 ">
+            Promote Excellence
+          </div>
           <p className="text-sm text-gray-400">
-            These utilities are really just a shortcut for adding margin to
-            all-but-the-first-item in a group, and aren’t designed to handle
-            complex cases like grids, layouts that wrap, or situations where the
+            At Fatbridge Foundation, we encourage students of all backgrounds,
+            particularly those from underrepresented groups,in pursuit of
+            education and careers in STEM fields
           </p>
         </div>
         <div>
@@ -47,11 +53,13 @@ function Mission() {
             style={{ fontSize: "3em" }}
             className="my-4 text-purple-500 mx-auto"
           />
-          <div className="text-base text-center text-gray-500  mt-2">Technological Awareness</div>
+          <div className="text-base text-center text-gray-500  mt-2">
+            Technological Awareness
+          </div>
           <p className="text-sm text-gray-400">
-            These utilities are really just a shortcut for adding margin to
-            all-but-the-first-item in a group, and aren’t designed to handle
-            complex cases like grids, layouts that wrap, or situations where the
+            Technology keeps evolving, hence the need to be up to date with the
+            latest tech trends. At Fatbridge Foundation, we ensure that our
+            students are not left out of the moving train.
           </p>
         </div>
         <div>
@@ -59,11 +67,11 @@ function Mission() {
             style={{ fontSize: "3em" }}
             className="my-4 text-purple-500  mx-auto"
           />
-          <div className="text-base text-center text-gray-500 mt-2">Developmental Growth</div>
+          <div className="text-base text-center text-gray-500 mt-2">
+            Developmental Growth
+          </div>
           <p className="text-sm text-gray-400">
-            These utilities are really just a shortcut for adding margin to
-            all-but-the-first-item in a group, and aren’t designed to handle
-            complex cases like grids, layouts that wrap, or situations where the
+            We are very much concerned about the developmental growth of our students 
           </p>
         </div>
       </div>
