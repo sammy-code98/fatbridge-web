@@ -22,7 +22,7 @@ function Mission() {
         <div>
           <FaHandshake
             style={{ fontSize: "3em" }}
-            className="my-4 text-purple-500 mx-auto"
+            className="my-4 text-cyan-300 mx-auto"
           />
           <div className="text-base text-center  text-gray-500 mt-2 ">
             Student Partnership
@@ -37,7 +37,7 @@ function Mission() {
         <div>
           <FaUserGraduate
             style={{ fontSize: "3em" }}
-            className="my-4 text-purple-500 mx-auto"
+            className="my-4 text-cyan-300 mx-auto"
           />
           <div className="text-base text-center text-gray-500 mt-2 ">
             Promote Excellence
@@ -51,7 +51,7 @@ function Mission() {
         <div>
           <FaRobot
             style={{ fontSize: "3em" }}
-            className="my-4 text-purple-500 mx-auto"
+            className="my-4 text-cyan-300 mx-auto"
           />
           <div className="text-base text-center text-gray-500  mt-2">
             Technological Awareness
@@ -65,7 +65,7 @@ function Mission() {
         <div>
           <FaSeedling
             style={{ fontSize: "3em" }}
-            className="my-4 text-purple-500  mx-auto"
+            className="my-4 text-cyan-300  mx-auto"
           />
           <div className="text-base text-center text-gray-500 mt-2">
             Developmental Growth
