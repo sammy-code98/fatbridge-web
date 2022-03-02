@@ -4,7 +4,7 @@ import Footer from "../Footer";
 
 export default function Layout({ children }) {
   return (
-    <div className="bg-gray-50">
+    <div>
       <Head>
         <title>Fatbridge</title>
         <meta name="description" content="fatbridge STEM + C website" />
