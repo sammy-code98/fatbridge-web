@@ -9,9 +9,9 @@ function Partners() {
         Our Partners and Sponsors
       </div>
       <div className="text-center text-gray-400">
-        Trusted by <span className="text-purple-700 font-bold">100+ </span>
+        Trusted by <span className="text-cyan-300 font-bold">100+ </span>
         Schools and Sponsored by{" "}
-        <span className="text-purple-700 font-bold">500+</span> Amazing
+        <span className="text-cyan-300 font-bold">500+</span> Amazing
         Individuals and Organizations
       </div>
       <div className="mt-4 md:container">

@@ -8,7 +8,7 @@ export default function Banner() {
       }}
     >
       <div className="order-last xl:order-first mt-4  md:mt-32">
-        <div className="p-4 text-5xl text-center md:text-left md:text-6xl text-purple-900 tracking-wide">
+        <div className="p-4 text-5xl text-center md:text-left md:text-6xl text-cyan-300 tracking-wide">
           Fatbridge
         </div>
         <div className=" text-center md:text-justify text-3xl text-gray-500">

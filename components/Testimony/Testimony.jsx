@@ -24,11 +24,11 @@ export default function Testimony() {
           <div className=" hidden md:block md:text-4xl  text-2xl font-bold tracking-wide leading-8 mb-2 text-gray-500">
             Inspiring Stories of our
           </div>
-          <div className=" hidden md:block  md:text-4xl  text-2xl font-bold tracking-wide leading-8 text-purple-700">
+          <div className=" hidden md:block  md:text-4xl  text-2xl font-bold tracking-wide leading-8 text-cyan-300">
             Amazing Students.
           </div>
           {/* mobile text */}
-          <span className="md:hidden  block text-purple-700 text-2xl">Inspiring Stories of our Amazing Students</span>
+          <span className="md:hidden  block text-cyan-300 text-2xl">Inspiring Stories of our Amazing Students</span>
         </div>
         <div className="md:grid md:grid-cols-4 md:gap-4 md:mx-8 mt-8">
           <div>
@@ -48,7 +48,7 @@ export default function Testimony() {
               )}
               <div
                 onClick={() => setReadOne(!readOne)}
-                className="text-purple-600 p-2 rounded-md cursor-pointer focus:outline-none hover:bg-purple-50"
+                className="text-cyan-300 p-2 rounded-md cursor-pointer focus:outline-none hover:bg-cyan-50"
               >
                 {readOne ? "Read less" : "Read more"}
               </div>
@@ -73,7 +73,7 @@ export default function Testimony() {
               )}
               <div
                 onClick={() => setReadTwo(!readTwo)}
-                className="text-purple-600 p-2 rounded-md cursor-pointer focus:outline-none hover:bg-purple-50"
+                className="text-cyan-300 p-2 rounded-md cursor-pointer focus:outline-none hover:bg-cyan-50"
               >
                 {readTwo ? "Read less" : "Read more"}
               </div>
@@ -96,7 +96,7 @@ export default function Testimony() {
               )}
               <div
                 onClick={() => setReadThree(!readThree)}
-                className="text-purple-600 p-2 rounded-md cursor-pointer focus:outline-none hover:bg-purple-50"
+                className="text-cyan-300 p-2 rounded-md cursor-pointer focus:outline-none hover:bg-cyan-50"
               >
                 {readThree ? "Read less" : "Read more"}
               </div>
@@ -119,7 +119,7 @@ export default function Testimony() {
               )}
               <div
                 onClick={() => setReadFour(!readFour)}
-                className="text-purple-600 p-2 rounded-md cursor-pointer focus:outline-none hover:bg-purple-50"
+                className="text-cyan-300 p-2 rounded-md cursor-pointer focus:outline-none hover:bg-cyan-50"
               >
                 {readFour ? "Read less" : "Read more"}
               </div>
