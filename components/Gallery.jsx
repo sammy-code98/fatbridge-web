@@ -19,7 +19,7 @@ function Gallery() {
       <div className="mt-4 md:grid md:grid-cols-3 md:gap-6 md:px-12">
         {gallData.map((gall, index) => (
           <div
-            className="shadow-md rounded-tr-3xl rounded-bl-3xl mb-6  md:m-4"
+            className="shadow-md rounded-tr-3xl rounded-bl-3xl mb-6  md:m-4 outline outline-offset-2 outline-2 outline-cyan-300 outline-dotted px-2 py-4"
             key={index}
           >
             <Image
@@ -29,14 +29,16 @@ function Gallery() {
               height={250}
               alt="gallery"
             />
-            <div className="text-center text-lg text-gray-500">{gall.name}</div>
+            <div className="text-center text-lg mt-2 text-gray-500">
+              {gall.name}
+            </div>
           </div>
         ))}
       </div>
-      <div className="flex flex-row  justify-center mt-4">
+      <div className="flex flex-row  justify-center mt-6">
         <button
           type="submit"
-          className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-cyan-300 hover:text-slate-900 duration-300 p-4 text-center py-3 rounded-full bg-slate-900 text-cyan-300 shadow-md focus:outline-none my-1"
+          className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 p-4 text-center py-3 rounded-full bg-cyan-300 text-slate-900 shadow-md focus:outline-none my-1"
         >
           <Link href="/gallery">Want to see more?</Link>
         </button>
