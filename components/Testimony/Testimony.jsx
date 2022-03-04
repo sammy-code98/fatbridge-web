@@ -30,9 +30,9 @@ export default function Testimony() {
           {/* mobile text */}
           <span className="md:hidden  block text-cyan-300 text-2xl">Inspiring Stories of our Amazing Students</span>
         </div>
-        <div className="md:grid md:grid-cols-4 md:gap-4 md:mx-8 mt-8">
+        <div className="md:grid md:grid-cols-4 md:gap-6 md:mx-8 mt-8">
           <div>
-          <div className="w-full h-fit mt-4  rounded-md shadow-sm ">
+          <div className="w-full h-fit mt-4 outline outline-offset-2 outline-2 px-2 py-4 rounded-lg outline-cyan-300 outline-dotted">
             <img src="/me.jpeg" alt="dot" className="w-full h-40" />
             <div className="text-sm font-extrabold px-2 mt-2 text-gray-700">
               Emmanuel Ciroma
@@ -57,7 +57,7 @@ export default function Testimony() {
           </div>
          
           {/* 2 */}
-          <div className="w-full h-fit mt-4  rounded-md shadow-sm ">
+          <div className="w-full h-fit mt-4 outline outline-offset-2 outline-2 px-2 py-4 rounded-lg outline-cyan-300 outline-dotted">
             <img src="/me.jpeg" alt="dot" className="w-full h-40" />
             <div className="text-sm font-extrabold px-2 mt-2 text-gray-700">
               Emmanuel Ciroma
@@ -80,7 +80,7 @@ export default function Testimony() {
             </div>
           </div>
           {/* 3 */}
-          <div className="w-full h-fit mt-4  rounded-md shadow-sm ">
+          <div className="w-full h-fit mt-4 outline outline-offset-2 outline-2 px-2 py-4 rounded-lg outline-cyan-300 outline-dotted">
             <img src="/me.jpeg" alt="dot" className="w-full h-40" />
             <div className="text-sm font-extrabold px-2 mt-2 text-gray-700">
               Emmanuel Ciroma
@@ -103,7 +103,7 @@ export default function Testimony() {
             </div>
           </div>
           {/* 4 */}
-          <div className="w-full h-fit mt-4  rounded-md shadow-sm ">
+          <div className="w-full h-fit mt-4 outline outline-offset-2 outline-2 px-2 py-4 rounded-lg outline-cyan-300 outline-dotted">
             <img src="/me.jpeg" alt="dot" className="w-full h-40" />
             <div className="text-sm font-extrabold px-2 mt-2 text-gray-700">
               Emmanuel Ciroma
