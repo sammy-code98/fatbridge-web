@@ -50,36 +50,35 @@ function about() {
       </div>
       <div className="text-center text-4xl text-gray-500 mt-12">Our Vision</div>
       <div className="md:grid md:grid-cols-2 md:gap-8 md:justify-items-center md:px-24 mt-8 pb-8">
-        <div className="w-full rounded-md border-double border-4 border-purple-700 mb-4 p-2">
+        <div className="w-full rounded-md outline outline-offset-2 outline-2 outline-cyan-300 outline-dotted mb-4 p-2">
           <h6 className="text-2xl text-cyan-300"><span>✴️</span> Some dummy text:</h6>
           <p className="text-base mx-4 text-gray-500"> Consequuntur, animi. Excepturi commodi itaque architecto
           veritatis dolorum obcaecati harum ipsa, velit, quod ut ab.
           Consequatur, quas aperiam.</p>
        
         </div>
-        <div className="w-full rounded-md border-double border-4 border-purple-700 mb-4 p-2">
+        <div className="w-full rounded-md outline outline-offset-2 outline-2 outline-cyan-300 outline-dotted mb-4 p-2">
           <h6 className="text-2xl text-cyan-300"><span>✴️</span> Some dummy text:</h6>
           <p className="text-base mx-4 text-gray-500"> Consequuntur, animi. Excepturi commodi itaque architecto
           veritatis dolorum obcaecati harum ipsa, velit, quod ut ab.
           Consequatur, quas aperiam.</p>
        
         </div>
-        <div className="w-full rounded-md border-double border-4 border-purple-700  mb-4 p-2">
-          <h6 className="text-2xl text-cyan-300"><span>✴️</span> Some dummy text:</h6>
-          <p className="text-base mx-4"> Consequuntur, animi. Excepturi commodi itaque architecto
-          veritatis dolorum obcaecati harum ipsa, velit, quod ut ab.
-          Consequatur, quas aperiam.</p>
-       
-        </div>
-        <div className="w-full rounded-md border-double border-4 border-purple-700 mb-4 p-2">
+        <div className="w-full rounded-md outline outline-offset-2 outline-2 outline-cyan-300 outline-dotted mb-4 p-2">
           <h6 className="text-2xl text-cyan-300"><span>✴️</span> Some dummy text:</h6>
           <p className="text-base mx-4 text-gray-500"> Consequuntur, animi. Excepturi commodi itaque architecto
           veritatis dolorum obcaecati harum ipsa, velit, quod ut ab.
           Consequatur, quas aperiam.</p>
        
         </div>
+        <div className="w-full rounded-md outline outline-offset-2 outline-2 outline-cyan-300 outline-dotted mb-4 p-2">
+          <h6 className="text-2xl text-cyan-300"><span>✴️</span> Some dummy text:</h6>
+          <p className="text-base mx-4 text-gray-500"> Consequuntur, animi. Excepturi commodi itaque architecto
+          veritatis dolorum obcaecati harum ipsa, velit, quod ut ab.
+          Consequatur, quas aperiam.</p>
        
-
+        </div>
+      
       </div>
     </section>
   );
