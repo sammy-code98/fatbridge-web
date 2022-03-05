@@ -14,12 +14,12 @@ function Faq() {
           </p>
         </div>
         <div className="mt-4">
-          <div className="collapse w-full bg-purple-500 rounded-box shadow-sm mb-4 collapse-arrow">
+          <div className="collapse w-full bg-cyan-300 rounded-box shadow-sm mb-4 collapse-arrow">
             <input type="checkbox" />
-            <div className="collapse-title text-lg text-white font-medium">
+            <div className="collapse-title text-lg text-slate-900 font-medium">
               Lorem ipsum d
             </div>
-            <div className="collapse-content text-white">
+            <div className="collapse-content text-slate-900">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptas quo assumenda consequatur minima dolores quasi soluta
@@ -29,12 +29,12 @@ function Faq() {
             </div>
           </div>
           {/* 2 */}
-          <div className="collapse w-full bg-purple-500 rounded-box shadow-sm mb-4 collapse-arrow">
+          <div className="collapse w-full bg-cyan-300 rounded-box shadow-sm mb-4 collapse-arrow">
             <input type="checkbox" />
-            <div className="collapse-title text-lg text-white font-medium">
+            <div className="collapse-title text-lg text-slate-900 font-medium">
               Lorem ipsum d
             </div>
-            <div className="collapse-content text-white">
+            <div className="collapse-content text-slate-900">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptas quo assumenda consequatur minima dolores quasi soluta
@@ -44,12 +44,12 @@ function Faq() {
             </div>
           </div>
           {/* 3 */}
-          <div className="collapse w-full bg-purple-500 rounded-box shadow-sm mb-4 collapse-arrow">
+          <div className="collapse w-full bg-cyan-300 rounded-box shadow-sm mb-4 collapse-arrow">
             <input type="checkbox" />
-            <div className="collapse-title text-lg text-white font-medium">
+            <div className="collapse-title text-lg text-slate-900 font-medium">
               Lorem ipsum d
             </div>
-            <div className="collapse-content text-white">
+            <div className="collapse-content text-slate-900">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptas quo assumenda consequatur minima dolores quasi soluta
@@ -59,12 +59,12 @@ function Faq() {
             </div>
           </div>
           {/* 4 */}
-          <div className="collapse w-full bg-purple-500 rounded-box shadow-sm mb-4 collapse-arrow">
+          <div className="collapse w-full bg-cyan-300 rounded-box shadow-sm mb-4 collapse-arrow">
             <input type="checkbox" />
-            <div className="collapse-title text-lg text-white font-medium">
+            <div className="collapse-title text-lg text-slate-900 font-medium">
               Lorem ipsum d
             </div>
-            <div className="collapse-content text-white">
+            <div className="collapse-content text-slate-900">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptas quo assumenda consequatur minima dolores quasi soluta
@@ -74,12 +74,12 @@ function Faq() {
             </div>
           </div>
           {/* 5 */}
-          <div className="collapse w-full bg-purple-500 rounded-box shadow-sm mb-4 collapse-arrow">
+          <div className="collapse w-full bg-cyan-300 rounded-box shadow-sm mb-4 collapse-arrow">
             <input type="checkbox" />
-            <div className="collapse-title text-lg text-white font-medium">
+            <div className="collapse-title text-lg text-slate-900 font-medium">
               Lorem ipsum d
             </div>
-            <div className="collapse-content text-white">
+            <div className="collapse-content text-slate-900">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptas quo assumenda consequatur minima dolores quasi soluta
