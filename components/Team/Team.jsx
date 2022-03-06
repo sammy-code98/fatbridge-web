@@ -19,11 +19,11 @@ export default function Team() {
             pagination:false,
             drag: true,
             trimSpace: 'move',
-            gap:"10px"
+            gap:"20px"
 
         }}>
   <SplideSlide>
-    <img src="/me.jpeg" alt="Image 1"/>
+      <img src="/me.jpeg" alt="Image 1"/>
   </SplideSlide>
   <SplideSlide>
     <img src="/new.png" alt="Image 2"/>
