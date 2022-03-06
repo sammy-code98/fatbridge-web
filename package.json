@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@glidejs/glide": "^3.5.2",
+    "@splidejs/react-splide": "^0.6.20",
     "daisyui": "^1.25.4",
     "material-design-icons": "^3.0.1",
     "next": "12.0.8",
