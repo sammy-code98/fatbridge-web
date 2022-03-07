@@ -30,7 +30,7 @@ export default function Team() {
       >
         <SplideSlide className="splide__slide">
           <div className="splide__slide__container">
-            <img src="/me.jpeg" alt="Image 1" />
+            <img src="/me.jpeg" alt="Image 1" className="rounded-tl-lg rounded-tr-lg" />
           </div>
           <div className="text-center pt-2 text-cyan-300 font-extrabold  bg-slate-900 opacity-70 rounded-tr-3xl rounded-tl-3xl">
             <h5>Ciroma emmanuel</h5>
@@ -39,7 +39,7 @@ export default function Team() {
         </SplideSlide>
         <SplideSlide className="splide__slide">
           <div className="splide__slide__container">
-            <img src="/me.jpeg" alt="Image 1" />
+            <img src="/me.jpeg" alt="Image 1"  className="rounded-tl-lg rounded-tr-lg" />
           </div>
           <div className="text-center pt-2 text-cyan-300 font-extrabold  bg-slate-900 opacity-70 rounded-tr-3xl rounded-tl-3xl">
             <h5>Ciroma emmanuel</h5>
@@ -47,7 +47,7 @@ export default function Team() {
           </div>
         </SplideSlide>  <SplideSlide className="splide__slide">
           <div className="splide__slide__container">
-            <img src="/me.jpeg" alt="Image 1" />
+            <img src="/me.jpeg" alt="Image 1" className="rounded-tl-lg rounded-tr-lg"  />
           </div>
           <div className="text-center pt-2 text-cyan-300 font-extrabold  bg-slate-900 opacity-70 rounded-tr-3xl rounded-tl-3xl">
             <h5>Ciroma emmanuel</h5>
@@ -55,7 +55,7 @@ export default function Team() {
           </div>
         </SplideSlide>  <SplideSlide className="splide__slide">
           <div className="splide__slide__container">
-            <img src="/me.jpeg" alt="Image 1" />
+            <img src="/me.jpeg" alt="Image 1"  className="rounded-tl-lg rounded-tr-lg" />
           </div>
           <div className="text-center pt-2 text-cyan-300 font-extrabold  bg-slate-900 opacity-70 rounded-tr-3xl rounded-tl-3xl">
             <h5>Ciroma emmanuel</h5>
@@ -63,7 +63,7 @@ export default function Team() {
           </div>
         </SplideSlide>  <SplideSlide className="splide__slide">
           <div className="splide__slide__container">
-            <img src="/me.jpeg" alt="Image 1" />
+            <img src="/me.jpeg" alt="Image 1" className="rounded-tl-lg rounded-tr-lg"  />
           </div>
           <div className="text-center pt-2 text-cyan-300 font-extrabold  bg-slate-900 opacity-70 rounded-tr-3xl rounded-tl-3xl">
             <h5>Ciroma emmanuel</h5>
@@ -71,7 +71,7 @@ export default function Team() {
           </div>
         </SplideSlide>  <SplideSlide className="splide__slide">
           <div className="splide__slide__container">
-            <img src="/me.jpeg" alt="Image 1" />
+            <img src="/me.jpeg" alt="Image 1" className="rounded-tl-lg rounded-tr-lg" />
           </div>
           <div className="text-center pt-2 text-cyan-300 font-extrabold  bg-slate-900 opacity-70 rounded-tr-3xl rounded-tl-3xl">
             <h5>Ciroma emmanuel</h5>
@@ -79,7 +79,7 @@ export default function Team() {
           </div>
         </SplideSlide>  <SplideSlide className="splide__slide">
           <div className="splide__slide__container">
-            <img src="/me.jpeg" alt="Image 1" />
+            <img src="/me.jpeg" alt="Image 1" className="rounded-tl-lg rounded-tr-lg"  />
           </div>
           <div className="text-center pt-2 text-cyan-300 font-extrabold  bg-slate-900 opacity-70 rounded-tr-3xl rounded-tl-3xl">
             <h5>Ciroma emmanuel</h5>
@@ -87,7 +87,7 @@ export default function Team() {
           </div>
         </SplideSlide>  <SplideSlide className="splide__slide">
           <div className="splide__slide__container">
-            <img src="/me.jpeg" alt="Image 1" />
+            <img src="/me.jpeg" alt="Image 1" className="rounded-tl-lg rounded-tr-lg"  />
           </div>
           <div className="text-center pt-2 text-cyan-300 font-extrabold  bg-slate-900 opacity-70 rounded-tr-3xl rounded-tl-3xl">
             <h5>Ciroma emmanuel</h5>
