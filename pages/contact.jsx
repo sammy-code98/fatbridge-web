@@ -5,9 +5,9 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 function contact() {
   return (
     <section className="pt-24">
-      <div className="md:grid md:grid-cols-2 md:gap-6 md:justify-items-center md:px-12">
+      <div className="md:grid md:grid-cols-2 md:gap-6 md:justify-items-center md:px-12 pb-6">
         <div className="order-first xl:order-last mt-6">
-          <Image src="/contact.svg" width={500} height={300} alt="contact" />
+          <Image src="/contact.svg" width={500} height={350} alt="contact" />
         </div>
         <div>
           <div className="text-center text-3xl md:text-4xl text-gray-500 mt-4">
