@@ -2,6 +2,7 @@
 import React from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
+import { teamData } from "./teamData";
 
 export default function Team() {
   return (
@@ -28,72 +29,22 @@ export default function Team() {
           },
         }}
       >
-        <SplideSlide className="splide__slide">
-          <div className="splide__slide__container">
-            <img src="/me.jpeg" alt="Image 1" className="rounded-tl-lg rounded-tr-lg" />
-          </div>
-          <div className="text-center pt-2 text-cyan-300 font-extrabold  bg-slate-900 opacity-70 rounded-tr-3xl rounded-tl-3xl">
-            <h5>Ciroma emmanuel</h5>
-            <span>Tutor</span>
-          </div>
-        </SplideSlide>
-        <SplideSlide className="splide__slide">
-          <div className="splide__slide__container">
-            <img src="/me.jpeg" alt="Image 1"  className="rounded-tl-lg rounded-tr-lg" />
-          </div>
-          <div className="text-center pt-2 text-cyan-300 font-extrabold  bg-slate-900 opacity-70 rounded-tr-3xl rounded-tl-3xl">
-            <h5>Ciroma emmanuel</h5>
-            <span>Tutor</span>
-          </div>
-        </SplideSlide>  <SplideSlide className="splide__slide">
-          <div className="splide__slide__container">
-            <img src="/me.jpeg" alt="Image 1" className="rounded-tl-lg rounded-tr-lg"  />
-          </div>
-          <div className="text-center pt-2 text-cyan-300 font-extrabold  bg-slate-900 opacity-70 rounded-tr-3xl rounded-tl-3xl">
-            <h5>Ciroma emmanuel</h5>
-            <span>Tutor</span>
-          </div>
-        </SplideSlide>  <SplideSlide className="splide__slide">
-          <div className="splide__slide__container">
-            <img src="/me.jpeg" alt="Image 1"  className="rounded-tl-lg rounded-tr-lg" />
-          </div>
-          <div className="text-center pt-2 text-cyan-300 font-extrabold  bg-slate-900 opacity-70 rounded-tr-3xl rounded-tl-3xl">
-            <h5>Ciroma emmanuel</h5>
-            <span>Tutor</span>
-          </div>
-        </SplideSlide>  <SplideSlide className="splide__slide">
-          <div className="splide__slide__container">
-            <img src="/me.jpeg" alt="Image 1" className="rounded-tl-lg rounded-tr-lg"  />
-          </div>
-          <div className="text-center pt-2 text-cyan-300 font-extrabold  bg-slate-900 opacity-70 rounded-tr-3xl rounded-tl-3xl">
-            <h5>Ciroma emmanuel</h5>
-            <span>Tutor</span>
-          </div>
-        </SplideSlide>  <SplideSlide className="splide__slide">
-          <div className="splide__slide__container">
-            <img src="/me.jpeg" alt="Image 1" className="rounded-tl-lg rounded-tr-lg" />
-          </div>
-          <div className="text-center pt-2 text-cyan-300 font-extrabold  bg-slate-900 opacity-70 rounded-tr-3xl rounded-tl-3xl">
-            <h5>Ciroma emmanuel</h5>
-            <span>Tutor</span>
-          </div>
-        </SplideSlide>  <SplideSlide className="splide__slide">
-          <div className="splide__slide__container">
-            <img src="/me.jpeg" alt="Image 1" className="rounded-tl-lg rounded-tr-lg"  />
-          </div>
-          <div className="text-center pt-2 text-cyan-300 font-extrabold  bg-slate-900 opacity-70 rounded-tr-3xl rounded-tl-3xl">
-            <h5>Ciroma emmanuel</h5>
-            <span>Tutor</span>
-          </div>
-        </SplideSlide>  <SplideSlide className="splide__slide">
-          <div className="splide__slide__container">
-            <img src="/me.jpeg" alt="Image 1" className="rounded-tl-lg rounded-tr-lg"  />
-          </div>
-          <div className="text-center pt-2 text-cyan-300 font-extrabold  bg-slate-900 opacity-70 rounded-tr-3xl rounded-tl-3xl">
-            <h5>Ciroma emmanuel</h5>
-            <span>Tutor</span>
-          </div>
-        </SplideSlide>
+        {teamData.map((team, index) => (
+          <SplideSlide className="splide__slide" key={index}>
+            <div className="splide__slide__container">
+              <img
+                src={team.img}
+                alt="Image 1"
+                className="rounded-tl-lg rounded-tr-lg"
+              />
+            </div>
+            <div className="text-center pt-2 text-cyan-300 font-extrabold  bg-slate-900 opacity-70 rounded-tr-3xl rounded-tl-3xl">
+              <h5>{team.name}</h5>
+              <span>{team.role}</span>
+            </div>
+          </SplideSlide>
+        ))}
+
       </Splide>
     </div>
   );
