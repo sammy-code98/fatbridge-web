@@ -1,18 +1,16 @@
-export  const teamData = [
-    {name: "Mrs. Mary Ejiogu", img:"/team/mary.jpg", role:"Tutor"},
-    {name: "Mrs. Mary Ejiogu", img:"/team/mary.jpg", role:"Tutor"},
-    {name: "Mrs. Mary Ejiogu", img:"/team/mary.jpg", role:"Tutor"},
-    {name: "Mrs. Mary Ejiogu", img:"/team/mary.jpg", role:"Tutor"},
-    {name: "Mrs. Mary Ejiogu", img:"/team/mary.jpg", role:"Tutor"},
-    {name: "Mrs. Mary Ejiogu", img:"/team/mary.jpg", role:"Tutor"},
-    {name: "Mrs. Mary Ejiogu", img:"/team/mary.jpg", role:"Tutor"},
-    {name: "Mrs. Mary Ejiogu", img:"/team/mary.jpg", role:"Tutor"},
-    {name: "Mrs. Mary Ejiogu", img:"/team/mary.jpg", role:"Tutor"},
-    {name: "Mrs. Mary Ejiogu", img:"/team/mary.jpg", role:"Tutor"},
-    {name: "Mrs. Mary Ejiogu", img:"/team/mary.jpg", role:"Tutor"},
-    {name: "Mrs. Mary Ejiogu", img:"/team/mary.jpg", role:"Tutor"},
-    {name: "Mrs. Mary Ejiogu", img:"/team/mary.jpg", role:"Tutor"},
-
-    
-
-]
+export const teamData = [
+  { name: "Pst Williams Adedeji", img: "/team/williams.jpeg", role: "Founder" },
+  { name: "Mrs. Mary Ejiogu", img: "/team/mary.jpg", role: "Tutor" },
+  { name: "Ogbonnaya Okechukwu Ukegbu", img: "/team/ogb2.jpg", role: "Tutor" },
+  { name: "Agwu Josiah Chinedum", img: "/team/alpha.jpg", role: "Tutor" },
+  { name: "Mrs. Mary Ejiogu", img: "/team/mary.jpg", role: "Tutor" },
+  { name: "Mrs. Mary Ejiogu", img: "/team/mary.jpg", role: "Tutor" },
+  { name: "Mrs. Mary Ejiogu", img: "/team/mary.jpg", role: "Tutor" },
+  { name: "Mrs. Mary Ejiogu", img: "/team/mary.jpg", role: "Tutor" },
+  { name: "Mrs. Mary Ejiogu", img: "/team/mary.jpg", role: "Tutor" },
+  { name: "Mrs. Mary Ejiogu", img: "/team/mary.jpg", role: "Tutor" },
+  { name: "Mrs. Mary Ejiogu", img: "/team/mary.jpg", role: "Tutor" },
+  { name: "Mrs. Mary Ejiogu", img: "/team/mary.jpg", role: "Tutor" },
+  { name: "Mrs. Mary Ejiogu", img: "/team/mary.jpg", role: "Tutor" },
+  { name: "Mrs. Mary Ejiogu", img: "/team/mary.jpg", role: "Tutor" },
+];
