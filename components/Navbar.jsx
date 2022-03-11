@@ -54,7 +54,7 @@ export default function Navbar() {
               </a>
             </Link>
            
-            <Link href="">
+            <Link href="/projects">
               <a className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-cyan-300 font-bold items-center justify-center hover:bg-cyan-300 hover:text-slate-900">
                 Projects
               </a>
