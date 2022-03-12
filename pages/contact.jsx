@@ -1,15 +1,40 @@
 import React from "react";
 import Image from "next/image";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { motion } from "framer-motion";
+let easing = [0.6, -0.05, 0.01, 0.99];
 
+const stagger = {
+  animate: {
+    transition: {
+      staggerChildren: 0.05,
+    },
+  },
+};
+const fadeIn = {
+  initial: {
+    y: 200,
+    opacity: 0,
+    transition: { duration: 0.2, ease: easing },
+  },
+  animate: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.6,
+      ease: easing,
+    },
+  },
+};
 function contact() {
   return (
-    <section className="pt-24">
+    <motion.div animate="animate" initial="initial" exit={{opacity:0}}>
+<section className="pt-24">
       <div className="md:grid md:grid-cols-2 md:gap-6 md:justify-items-center md:px-12 pb-6">
-        <div className="order-first xl:order-last mt-6">
+        <motion.div variants={fadeIn} className="order-first xl:order-last mt-6">
           <Image src="/contact.svg" width={500} height={350} alt="contact" />
-        </div>
-        <div>
+        </motion.div>
+        <motion.div variants={fadeIn}>
           <div className="text-center text-3xl md:text-4xl text-gray-500 mt-4">
             Get In Touch with Us
           </div>
@@ -17,7 +42,7 @@ function contact() {
             Reach out to us on social media and our team will be happy to get
             back to you quickly{" "}
           </div>
-          <div className="mt-8 md:mx-32 mx-16">
+          <motion.div variants={stagger} className="mt-8 md:mx-32 mx-16">
             <div className="flex m-2">
               <FaFacebookF
                 className="cursor-pointer hover:text-sky-500"
@@ -39,13 +64,15 @@ function contact() {
               />
               <span className="mx-2 text-gray-500">Fatbridge Twitter </span>
             </div>
-          </div>
+          </motion.div>
           <div className="text-center text-base text-gray-500 mt-4">
             Or email us your complaint @ <a>complaints@fatbride.com.ng</a>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
+    </motion.div>
+    
   );
 }
 
