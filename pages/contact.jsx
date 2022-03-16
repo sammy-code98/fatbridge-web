@@ -29,7 +29,7 @@ const fadeIn = {
 function contact() {
   return (
     <motion.div animate="animate" initial="initial" exit={{opacity:0}}>
-<section className="pt-24">
+<section className="pt-24 px-24">
       <div className="md:grid md:grid-cols-2 md:gap-6 md:justify-items-center md:px-12 pb-6">
         <motion.div variants={fadeIn} className="order-first xl:order-last mt-6">
           <Image src="/contact.svg" width={500} height={350} alt="contact" />
