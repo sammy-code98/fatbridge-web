@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 const gallData = [
   { name: "outing at evangel", img: "/me.jpeg" },
   { name: "outing at evangel", img: "/me.jpeg" },
@@ -18,8 +19,13 @@ function Gallery() {
       </div>
       <div className="mt-4 md:grid md:grid-cols-3 md:gap-6 md:px-12">
         {gallData.map((gall, index) => (
-          <div
-            className="shadow-md rounded-tr-3xl rounded-bl-3xl mb-6  md:m-4 outline outline-offset-2 outline-2 outline-cyan-300 outline-dotted px-2 py-4"
+          <motion.div
+            whileHover={{
+              scale: 1.1,
+              textShadow:"0px 0px 8px #67e8f9",
+              boxShadow: "0px 0px 8px rgb(225, 225,225)",
+            }}
+            className="shadow-md rounded-tr-3xl rounded-bl-3xl mb-6  md:m-4 outline outline-offset-0  outline-2 outline-cyan-300 outline-dotted px-2 py-4"
             key={index}
           >
             <Image
@@ -32,7 +38,7 @@ function Gallery() {
             <div className="text-center text-lg mt-2 text-gray-500">
               {gall.name}
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
       <div className="flex flex-row  justify-center mt-6">
