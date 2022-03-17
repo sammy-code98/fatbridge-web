@@ -10,7 +10,7 @@ const gallData = [
 function Gallery() {
   return (
     <div className="mt-12 md:mt-32 container px-12">
-      <div className="text-center text-2xl md:text-3xl text-gray-500">
+      <div className="text-center text-2xl md:text-3xl text-white">
         Gallery of Our Training Sessions
       </div>
       <div className="text-center text-base text-gray-500">

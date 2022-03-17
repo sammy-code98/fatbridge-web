@@ -6,10 +6,10 @@ function Faq() {
     <>
       <section className="md:grid md:grid-cols-2 md:gap-6 mt-24 md:mt-32 md:justify-items-center md:px-12">
         <div className="mt-12">
-          <p className="text-center text-2xl md:text-4xl p-2 text-gray-500">
+          <p className="text-center text-2xl md:text-4xl p-2 text-white">
             You have questions?
           </p>
-          <p className="text-center text-2xl md:text-4xl p-2 text-gray-500">
+          <p className="text-center text-2xl md:text-4xl p-2 text-cyan-300">
             We have answers
           </p>
         </div>
@@ -91,7 +91,7 @@ function Faq() {
         </div>
       </section>
       <div className="mt-12">
-        <div className="text-center text-2xl md:text-4xl text-gray-500">
+        <div className="text-center text-2xl md:text-4xl text-white">
           Still Need Help? <span>👀</span>
         </div>
         <div className="text-center text-lg text-gray-400">

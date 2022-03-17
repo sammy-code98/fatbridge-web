@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 function Mission() {
   return (
     <section className="mt-12 md:mt-32" id="mission">
-      <div className="text-center text-2xl md:text-3xl text-gray-500">
+      <div className="text-center text-2xl md:text-3xl text-white">
         Our Mission
       </div>
       <div className="text-center text-base text-gray-500 md:px-8 mt-2">

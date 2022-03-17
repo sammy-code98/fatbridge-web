@@ -18,7 +18,7 @@ export default function Banner() {
         >
           Fatbridge
         </div>
-        <div className=" text-center md:text-justify text-3xl text-gray-500">
+        <div className=" text-center md:text-justify text-3xl text-white">
           STEM + C Foundation
         </div>
         <div className="text-left mx-2 mt-2 text-gray-500">

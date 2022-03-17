@@ -21,20 +21,20 @@ export default function Testimony() {
       </div>
       <div className="md:flex md:flex-col md:justify-items-center mt-24 container">
         <div className="mx-8">
-          <div className=" hidden md:block md:text-4xl  text-2xl font-bold tracking-wide leading-8 mb-2 text-gray-500">
+          <div className=" hidden md:block md:text-4xl  text-2xl font-bold tracking-wide leading-8 mb-2 text-white">
             Inspiring Stories of our
           </div>
           <div className=" hidden md:block  md:text-4xl  text-2xl font-bold tracking-wide leading-8 text-cyan-300">
             Amazing Students.
           </div>
           {/* mobile text */}
-          <span className="md:hidden  block text-cyan-300 text-2xl">Inspiring Stories of our Amazing Students</span>
+          <span className="md:hidden  block text-white text-2xl">Inspiring Stories of our Amazing Students</span>
         </div>
         <div className="md:grid md:grid-cols-4 md:gap-6 md:mx-8 mt-8">
           <div>
           <div className="w-full h-fit mt-4 outline outline-offset-2 outline-2 px-2 py-4 rounded-lg outline-cyan-300 outline-dotted">
             <img src="/me.jpeg" alt="dot" className="w-full h-40" />
-            <div className="text-sm font-extrabold px-2 mt-2 text-gray-700">
+            <div className="text-sm font-extrabold px-2 mt-2 text-white">
               Emmanuel Ciroma
             </div>
             <div className="text-gray-400 text-sm mx-2">10 years old</div>
@@ -59,7 +59,7 @@ export default function Testimony() {
           {/* 2 */}
           <div className="w-full h-fit mt-4 outline outline-offset-2 outline-2 px-2 py-4 rounded-lg outline-cyan-300 outline-dotted">
             <img src="/me.jpeg" alt="dot" className="w-full h-40" />
-            <div className="text-sm font-extrabold px-2 mt-2 text-gray-700">
+            <div className="text-sm font-extrabold px-2 mt-2 text-white">
               Emmanuel Ciroma
             </div>
             <div className="text-gray-400 text-sm mx-2">10 years old</div>
@@ -82,7 +82,7 @@ export default function Testimony() {
           {/* 3 */}
           <div className="w-full h-fit mt-4 outline outline-offset-2 outline-2 px-2 py-4 rounded-lg outline-cyan-300 outline-dotted">
             <img src="/me.jpeg" alt="dot" className="w-full h-40" />
-            <div className="text-sm font-extrabold px-2 mt-2 text-gray-700">
+            <div className="text-sm font-extrabold px-2 mt-2 text-white">
               Emmanuel Ciroma
             </div>
             <div className="text-gray-400 text-sm mx-2">10 years old</div>
@@ -105,7 +105,7 @@ export default function Testimony() {
           {/* 4 */}
           <div className="w-full h-fit mt-4 outline outline-offset-2 outline-2 px-2 py-4 rounded-lg outline-cyan-300 outline-dotted">
             <img src="/me.jpeg" alt="dot" className="w-full h-40" />
-            <div className="text-sm font-extrabold px-2 mt-2 text-gray-700">
+            <div className="text-sm font-extrabold px-2 mt-2 text-white">
               Emmanuel Ciroma
             </div>
             <div className="text-gray-400 text-sm mx-2">10 years old</div>
