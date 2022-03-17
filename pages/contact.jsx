@@ -35,7 +35,7 @@ function contact() {
           <Image src="/contact.svg" width={500} height={350} alt="contact" />
         </motion.div>
         <motion.div variants={fadeIn}>
-          <div className="text-center text-3xl md:text-4xl text-gray-500 mt-4">
+          <div className="text-center text-3xl md:text-4xl text-white mt-4">
             Get In Touch with Us
           </div>
           <div className="text-base text-gray-500 text-center mx-2">

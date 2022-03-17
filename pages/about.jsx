@@ -35,7 +35,7 @@ function about() {
       <section className="pt-24 container">
         <div className="md:grid md:grid-cols-2 md:gap-6 md:justify-items-center">
           <motion.div variants={fadeIn} className="md:mt-24 md:pl-12">
-            <motion.div variants={stagger} className="text-4xl text-gray-500 text-center">
+            <motion.div variants={stagger} className="text-4xl text-white text-center">
               Get to Know Us
             </motion.div>
             <div className="text-center text-gray-500 mt-2">
@@ -48,7 +48,7 @@ function about() {
             <Image src="/about.svg" width={500} height={300} alt="About" />
           </motion.div>
         </div>
-        <div className="text-center text-4xl text-gray-500 mt-12">
+        <div className="text-center text-4xl text-white mt-12">
           We&apos;re Here To Make Life Easier
         </div>
         <div className="md:text-justify md:px-32 mt-4 text-center text-gray-500">
@@ -77,7 +77,7 @@ function about() {
             Consequatur, quas aperiam.
           </p>
         </div>
-        <div className="text-center text-4xl text-gray-500 mt-12">
+        <div className="text-center text-4xl text-white mt-12">
           Our Vision
         </div>
         <div className="md:grid md:grid-cols-2 md:gap-8 md:justify-items-center md:px-24 mt-8 pb-8">
@@ -128,7 +128,7 @@ function about() {
         </div>
         <div>
           {" "}
-          <div className="text-center text-4xl text-gray-500 mt-12">
+          <div className="text-center text-4xl text-white mt-12">
             The Team
           </div>
           <Team />
