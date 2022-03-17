@@ -5,7 +5,7 @@ import Image from "next/image";
 function Partners() {
   return (
     <div className="mt-12 md:mt-32 p-4 ">
-      <div className="text-gray-500 text-center text-2xl md:text-3xl ">
+      <div className="text-white text-center text-2xl md:text-3xl ">
         Our Partners and Sponsors
       </div>
       <div className="text-center text-gray-400">

@@ -5,11 +5,11 @@ import {
   FaSeedling,
   FaUserGraduate,
 } from "react-icons/fa";
-
+import { motion } from "framer-motion";
 function Mission() {
   return (
     <section className="mt-12 md:mt-32" id="mission">
-      <div className="text-center text-2xl md:text-3xl text-gray-500">
+      <div className="text-center text-2xl md:text-3xl text-white">
         Our Mission
       </div>
       <div className="text-center text-base text-gray-500 md:px-8 mt-2">
@@ -20,10 +20,20 @@ function Mission() {
       </div>
       <div className="md:grid md:grid-cols-4 md:gap-8 md:justify-items-center mt-12 md:px-24 p-4">
         <div>
-          <FaHandshake
-            style={{ fontSize: "3em" }}
-            className="my-4 text-cyan-300 mx-auto"
-          />
+          <motion.div
+            whileHover={{ scale: 1.2, rotate: 90 }}
+            whileTap={{
+              scale: 0.8,
+              rotate: -90,
+              borderRadius: "100%",
+            }}
+          >
+            <FaHandshake
+              style={{ fontSize: "3em" }}
+              className="my-4 text-cyan-300 mx-auto"
+            />
+          </motion.div>
+
           <div className="text-base text-center  text-gray-500 mt-2 ">
             Student Partnership
           </div>
@@ -35,10 +45,20 @@ function Mission() {
           </p>
         </div>
         <div>
-          <FaUserGraduate
-            style={{ fontSize: "3em" }}
-            className="my-4 text-cyan-300 mx-auto"
-          />
+          <motion.div
+            whileHover={{ scale: 1.2, rotate: 90 }}
+            whileTap={{
+              scale: 0.8,
+              rotate: -90,
+              borderRadius: "100%",
+            }}
+          >
+            <FaUserGraduate
+              style={{ fontSize: "3em" }}
+              className="my-4 text-cyan-300 mx-auto"
+            />
+          </motion.div>
+
           <div className="text-base text-center text-gray-500 mt-2 ">
             Promote Excellence
           </div>
@@ -49,10 +69,20 @@ function Mission() {
           </p>
         </div>
         <div>
-          <FaRobot
-            style={{ fontSize: "3em" }}
-            className="my-4 text-cyan-300 mx-auto"
-          />
+          <motion.div
+            whileHover={{ scale: 1.2, rotate: 90 }}
+            whileTap={{
+              scale: 0.8,
+              rotate: -90,
+              borderRadius: "100%",
+            }}
+          >
+            <FaRobot
+              style={{ fontSize: "3em" }}
+              className="my-4 text-cyan-300 mx-auto"
+            />
+          </motion.div>
+
           <div className="text-base text-center text-gray-500  mt-2">
             Technological Awareness
           </div>
@@ -63,15 +93,26 @@ function Mission() {
           </p>
         </div>
         <div>
-          <FaSeedling
-            style={{ fontSize: "3em" }}
-            className="my-4 text-cyan-300  mx-auto"
-          />
+          <motion.div
+            whileHover={{ scale: 1.2, rotate: 90 }}
+            whileTap={{
+              scale: 0.8,
+              rotate: -90,
+              borderRadius: "100%",
+            }}
+          >
+            <FaSeedling
+              style={{ fontSize: "3em" }}
+              className="my-4 text-cyan-300  mx-auto"
+            />
+          </motion.div>
+
           <div className="text-base text-center text-gray-500 mt-2">
             Developmental Growth
           </div>
           <p className="text-sm text-gray-400">
-            We are very much concerned about the developmental growth of our students 
+            We are very much concerned about the developmental growth of our
+            students
           </p>
         </div>
       </div>

@@ -14,8 +14,8 @@ const gallData = [
 
 function gallery() {
   return (
-    <section className="pt-24 container">
-      <div className="text-center text-2xl md:text-3xl px-6 text-gray-500">
+    <section className="pt-24 container pb-24">
+      <div className="text-center text-2xl md:text-3xl px-6 text-white    ">
         See the Amazing feet we have achived with out program
       </div>
       <div className="text-center text-gray-500 text-base mx-8 mt-2">
