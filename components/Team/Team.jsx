@@ -6,7 +6,7 @@ import { teamData } from "./teamData";
 
 export default function Team() {
   return (
-    <div className="container px-12 mt-12 pb-24">
+    <div className="md:container md:px-12 mt-12 pb-24">
       <Splide
         options={{
           rewind: true,

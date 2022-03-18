@@ -81,7 +81,7 @@ function about() {
           Our Vision
         </div>
         <div className="md:grid md:grid-cols-2 md:gap-8 md:justify-items-center md:px-24 mt-8 pb-8">
-          <div className="w-full rounded-md outline outline-offset-2 outline-2 outline-cyan-300 outline-dotted mb-4 p-2">
+          <div className="w-full rounded-md outline outline-offset-2 outline-2 outline-cyan-300 outline-dotted mb-8 p-2">
             <h6 className="text-2xl text-cyan-300">
               <span>✴️</span> Some dummy text:
             </h6>
@@ -92,7 +92,7 @@ function about() {
               aperiam.
             </p>
           </div>
-          <div className="w-full rounded-md outline outline-offset-2 outline-2 outline-cyan-300 outline-dotted mb-4 p-2">
+          <div className="w-full rounded-md outline outline-offset-2 outline-2 outline-cyan-300 outline-dotted mb-8 p-2">
             <h6 className="text-2xl text-cyan-300">
               <span>✴️</span> Some dummy text:
             </h6>
@@ -103,7 +103,7 @@ function about() {
               aperiam.
             </p>
           </div>
-          <div className="w-full rounded-md outline outline-offset-2 outline-2 outline-cyan-300 outline-dotted mb-4 p-2">
+          <div className="w-full rounded-md outline outline-offset-2 outline-2 outline-cyan-300 outline-dotted mb-8 p-2">
             <h6 className="text-2xl text-cyan-300">
               <span>✴️</span> Some dummy text:
             </h6>
@@ -114,7 +114,7 @@ function about() {
               aperiam.
             </p>
           </div>
-          <div className="w-full rounded-md outline outline-offset-2 outline-2 outline-cyan-300 outline-dotted mb-4 p-2">
+          <div className="w-full rounded-md outline outline-offset-2 outline-2 outline-cyan-300 outline-dotted mb-8 p-2">
             <h6 className="text-2xl text-cyan-300">
               <span>✴️</span> Some dummy text:
             </h6>
