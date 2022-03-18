@@ -11,7 +11,7 @@ export default function Home() {
     <main id="home" className="container">
       <Banner />
       <div>
-        <Vision />
+        <Vision  />
         <Mission />
         <Partners />
         <Testimony />
