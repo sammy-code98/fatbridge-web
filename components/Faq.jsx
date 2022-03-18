@@ -1,5 +1,6 @@
 import React from "react";
 import { FaEyes } from "react-icons/fa";
+import Link from "next/link";
 
 function Faq() {
   return (
@@ -99,12 +100,15 @@ function Faq() {
           be in touch as soon as possible.
         </div>
         <div className="flex flex-row  justify-center mt-6 pb-24">
+          <Link href="/contact" passHref>
           <button
             type="submit"
             className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 p-4 text-center py-3 rounded-full bg-cyan-300 text-slate-900 shadow-md focus:outline-none my-1"
             >
             Contact Support
           </button>
+          </Link>
+        
         </div>
       </div>
     </>
