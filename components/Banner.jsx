@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Snowfall from 'react-snowfall'
+
 export default function Banner() {
   return (
     <div
@@ -8,6 +10,7 @@ export default function Banner() {
         maxHeight: "1000px",
       }}
     >
+      <Snowfall color="#67e8f9"/>
       <motion.div  initial={{ x: "-100vw" }}
           animate={{ x: 0 }}
           transition={{ delay:1, duration:8, type:"spring", stiffness:120}}
