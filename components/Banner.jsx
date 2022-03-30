@@ -22,12 +22,11 @@ export default function Banner() {
           Fatbridge
         </div>
         <div className=" text-center md:text-justify text-3xl text-white">
-          STEM + C Foundation
+          S.T.E.M + C Foundation
         </div>
         <div className="text-left mx-2 mt-2 text-gray-500">
           <span className="text-3xl">...</span>
-          Training and Promoting the study of STEM+C for Learners in
-          Nursery,Elementary, Junior and Senior Secondary Schools in Africa
+         Promoting the study of Science,Technology,Engineering,Mathematics and Computer S.T.E.M + C 
         </div>
       </motion.div>
       <div className="order-first xl:order-last mt-32">

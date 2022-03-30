@@ -13,10 +13,7 @@ function Mission() {
         Our Mission
       </div>
       <div className="text-center text-base text-gray-500 md:px-8 mt-2">
-        At Fatbridge, we are poised to assist the unrepresented gifted and
-        talented students to explore the use of technology/Artificial
-        intelligence in the studying of sciences, technology,
-        engineering,mathematics and Arts
+        At Fatbridge, we are aimed at promoting the study of <span className="text-cyan-300">Science,Technology,Engineering,Mathematics and Computer S.T.E.M + C</span> in Basic and Post Basic Education at Grassroot level and Empower the learners to build their careers around S.T.E.M
       </div>
       <div className="md:grid md:grid-cols-4 md:gap-8 md:justify-items-center mt-12 md:px-24 p-4">
         <div>
