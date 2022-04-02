@@ -21,6 +21,7 @@ function Partners() {
               <div className="md:mx-6 mx-2">
                 <span className="md:mx-8 mx-2">
                   <Image
+                    loading="lazy"
                     src="/google.svg"
                     alt="Google"
                     width={100}
@@ -31,6 +32,7 @@ function Partners() {
 
                 <span className="md:mx-8 mx-2">
                   <Image
+                    loading="lazy"
                     src="/facebook.svg"
                     alt="Google"
                     width={100}
