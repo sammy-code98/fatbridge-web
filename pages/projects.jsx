@@ -39,7 +39,13 @@ export default function projects() {
           <div className="w-full p-2 mb-10 rounded-md outline outline-offset-2 outline-2 outline-cyan-300 outline-dotted">
             <div className="md:grid md:grid-cols-2 md:gap-6">
               <div className="p-4">
-                <Image src="/me.jpeg" alt="projects" width={400} height={200} />
+                <Image
+                  loading="lazy"
+                  src="/me.jpeg"
+                  alt="projects"
+                  width={400}
+                  height={200}
+                />
               </div>
               <div className="mt-6 md:mt-12 px-8">
                 <div className="text-left text-2xl text-cyan-300">

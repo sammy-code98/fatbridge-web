@@ -22,13 +22,14 @@ function Gallery() {
           <motion.div
             whileHover={{
               scale: 1.1,
-              textShadow:"0px 0px 8px #67e8f9",
+              textShadow: "0px 0px 8px #67e8f9",
               boxShadow: "0px 0px 8px rgb(225, 225,225)",
             }}
             className="shadow-md rounded-tr-3xl rounded-bl-3xl mb-8  md:m-4 outline outline-offset-0  outline-2 outline-cyan-300 outline-dotted px-2 py-4"
             key={index}
           >
             <Image
+              loading="lazy"
               className="flex flex-row mx-auto  rounded-tr-3xl"
               src={gall.img}
               width={350}

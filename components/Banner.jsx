@@ -25,12 +25,13 @@ export default function Banner() {
         </div>
         <div className="text-left mx-2 mt-2 text-gray-500">
           <span className="text-3xl">...</span>
-          Promoting the study of Science, Technology, Engineering, Mathematics and
-          Computer S.T.E.M + C
+          Promoting the study of Science, Technology, Engineering, Mathematics
+          and Computer S.T.E.M + C
         </div>
       </motion.div>
       <div className="order-first xl:order-last mt-32">
         <Image
+          loading="lazy"
           src="/stem.svg"
           alt="Student Ambassador Image"
           width={500}

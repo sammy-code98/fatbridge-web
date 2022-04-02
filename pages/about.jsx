@@ -59,7 +59,13 @@ function about() {
             </div>
           </motion.div>
           <motion.div variants={fadeIn}>
-            <Image src="/about.svg" width={500} height={300} alt="About" />
+            <Image
+              loading="lazy"
+              src="/about.svg"
+              width={500}
+              height={300}
+              alt="About"
+            />
           </motion.div>
         </div>
         <div className="text-center text-4xl text-white md:mt-24 mt-12">
@@ -74,7 +80,9 @@ function about() {
         </div>
         <div>
           {" "}
-          <div className="text-center text-4xl text-white md:mt-24 mt-12">The Team</div>
+          <div className="text-center text-4xl text-white md:mt-24 mt-12">
+            The Team
+          </div>
           <Team />
         </div>
       </section>
